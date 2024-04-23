@@ -15,17 +15,17 @@ const Sidebar = () => {
         </Link>
       </div>
       <nav className="w-full  sm:pt-24">
-        <menu className="w-full flex flex-col items-center justify-center gap-10 ">
+        <menu className="w-full flex flex-col items-center justify-center gap-5 ">
           {Menu.map((item, index) => {
             return (
               <li key={index} className="inline-flex">
                 <Link
                   href={item.url}
                   className={`${
-                    path === item.url ? "text-blue-500" : "text-black-50"
-                  } text-black/50 p-2 hover:text-black transition-all duration-400 `}
+                    path === item.url ? "bg-blue-500 text-white" : "text-black-50"
+                  } text-black/50 p-2 rounded-lg hover:text-white hover:bg-blue-500 transition-all duration-400 `}
                 >
-                  {item.label}
+                  <item.icon />
                 </Link>
               </li>
             );
