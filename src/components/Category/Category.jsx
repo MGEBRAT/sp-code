@@ -12,3 +12,4 @@ const Category = ({getCategory}) => {
 }
 
 export default Category
+
