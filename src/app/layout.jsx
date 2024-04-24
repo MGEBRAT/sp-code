@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className + ' w-full bg-blue-50 text-stone-800 text-base'}>
         <div className="__next">
           <div className="w-full p-5 flex">
-            <Sidebar />
+            <div className="h-full sticky top-5 left-0 ">
+              <Sidebar  />
+            </div>
               <div className="w-full px-5">
                 <Header />
                 <main className="w-full" id="main">

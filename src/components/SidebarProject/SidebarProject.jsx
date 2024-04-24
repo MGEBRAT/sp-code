@@ -7,7 +7,7 @@ const SidebarProject = ({getProject, className = null}) => {
   return (
     <div className={className = ' w-full bg-white rounded-lg p-4 shadow-sm'}>
         <div className="w-full mb-4 aspect-square rounded-lg relative">
-            <Image fill loading='lazy' alt='картиночка крутая почти как аниме!!!!!' src={'/assets/img/projects/bp.jpeg'} className='w-full h-full object-cover object-center' />
+            <Image fill loading='lazy' alt='картиночка крутая почти как аниме!!!!!' src={'/assets/img/projects/bp.jpeg'} className='w-full h-full rounded-sm object-cover object-center' />
         </div>
         <h3 className="text-xl text-stone-900"> лучшая девочка на диком западе!</h3>
         <ul className="w-full inline-flex gap-2 mb-2">
