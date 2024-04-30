@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ProjectCard from "../UI/ProjectCard/ProjectCard";
+import ProjectCard from "../ProjectCard/ProjectCard";
 import Heading from "../UI/Heading/Heading";
 
 const Projects = ({ getData }) => {

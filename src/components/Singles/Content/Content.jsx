@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Content = ({getContent}) => {
+const Content = ({getContent, className = null}) => {
   return (
-    <div>
-      
-    </div>
+    <section className={className + 'w-full py-5 bg-white '}>
+      <div className="container mx-auto">
+        <div className="bg-white rounded-md p-5">
+          <p className='text-stone-700 text-lg'>{getContent}</p>
+        </div>
+      </div>
+    </section>
   )
 }
 

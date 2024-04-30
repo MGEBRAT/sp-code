@@ -1,5 +1,5 @@
 import Heading from "@/components/UI/Heading/Heading";
-import ProjectCard from "@/components/UI/ProjectCard/ProjectCard";
+import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import React from "react";
 
 export default function projects() {
